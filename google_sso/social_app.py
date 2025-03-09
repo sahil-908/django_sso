@@ -9,7 +9,7 @@ class Command(BaseCommand):
         site, created = Site.objects.get_or_create(id=1, defaults={"domain": "127.0.0.1", "name": "localhost"})
 
         app, created = SocialApp.objects.get_or_create(
-            provider="google",  # Change to your provider (e.g., facebook, github)
+            provider="google",
             name="Google OAuth",
             client_id="your_client_id",
             secret="your_secret_key"
