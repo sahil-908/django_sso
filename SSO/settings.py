@@ -33,12 +33,14 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
     "http://127.0.0.1:8080",
     "https://b9df-103-226-200-79.ngrok-free.app",
+    "https://web-production-e8c0.up.railway.app",
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
 
 CSRF_TRUSTED_ORIGINS = [
     "https://b9df-103-226-200-79.ngrok-free.app",
+    "https://web-production-e8c0.up.railway.app",
     "http://localhost:3000",
     "http://localhost:8080",
     "http://localhost:5173",
