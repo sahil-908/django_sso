@@ -50,6 +50,13 @@ CSRF_TRUSTED_ORIGINS = [
 
 CSRF_COOKIE_SECURE = False 
 
+
+
+# if "web-production-e8c0.up.railway.app" in os.getenv("HOSTNAME", ""):
+#     SITE_ID = 2  # Production
+# else:
+#     SITE_ID = 1  # Localhost
+
 SITE_ID = 2
 # Application definition
 
